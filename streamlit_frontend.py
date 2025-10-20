@@ -1,7 +1,7 @@
 # Refer video lec 12 from campusx for better understanding
 
 import streamlit as st
-from langgraph_backend import chatbot
+from langgraph_backend import chatbot  # Here langgraph_backend is our .py file which has our backend code
 from langchain_core.messages import HumanMessage
 
 # st.session_state -> dict -> 
