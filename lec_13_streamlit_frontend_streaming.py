@@ -3,7 +3,7 @@ For more better understanding refer streamlit docs apart from campusX lec 12 and
 '''
 
 import streamlit as st
-from langgraph_backend import chatbot
+from lec12_langgraph_backend import chatbot
 from langchain_core.messages import HumanMessage
 
 # st.session_state -> dict -> 

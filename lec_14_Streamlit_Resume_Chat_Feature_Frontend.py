@@ -1,5 +1,5 @@
 import streamlit as st
-from langgraph_backend import chatbot
+from lec12_langgraph_backend import chatbot
 from langchain_core.messages import HumanMessage
 import uuid # Its role is to generate unique ids for each session
 
