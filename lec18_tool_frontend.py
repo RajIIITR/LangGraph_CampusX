@@ -84,6 +84,7 @@ if user_input:
 
      # first add the message to message_history
     with st.chat_message("assistant"):
+        # We had change this function so that we print only AI message rather printing both i.e. AI message and tool message which confuses the user.
         def ai_only_stream():
             for message_chunk, metadata in chatbot.stream(
                 {"messages": [HumanMessage(content=user_input)]},
